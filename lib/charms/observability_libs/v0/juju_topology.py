@@ -128,7 +128,7 @@ class JujuTopology:
     def is_valid_uuid(self, uuid):
         """Validate the supplied UUID against the Juju Model UUID pattern."""
         # TODO:
-        # Harness is harcoding an UUID that is v1 not v4: f2c1b2a6-e006-11eb-ba80-0242ac130004
+        # Harness is hardcoding an UUID that is v1 not v4: f2c1b2a6-e006-11eb-ba80-0242ac130004
         # See: https://github.com/canonical/operator/issues/779
         #
         # >>> uuid.UUID("f2c1b2a6-e006-11eb-ba80-0242ac130004").version
